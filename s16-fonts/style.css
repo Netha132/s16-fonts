@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+
+body{
+    background-color: #212a31;
+}
+#narutoName{
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  padding: 20px;
+  font-size: 48px;
+  text-align: center;
+  background-color: #ef680e;
+  background-image: url("./images/narutomark.png");
+  background-size: 20px;
+  background-position: center;
+  color: #fff;
+  border: 2px solid #d40745;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px #525151;
+}
+#desc{
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+#develop{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+#developDesc{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  text-align: justify;
+}
+#langDesc{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+#teluguDiv{
+    border: 1px solid #fff;
+    background-color: #c1c1c185;
+}
+.langDesc1{
+    color: #fff;
+    font-size: 14px;
+    text-align: justify;
+}
+
+@font-face {
+    font-family:Telugufont ;
+    src: url(./fonts/TiroTelugu-Regular.ttf);
+}
+#teluguLang{
+    font-family: Telugufont;
+}
+#germanLang{
+    font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#spanishLang{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.heading{
+    color: #fff;
+    font-size: 36px;
+    padding-left: 20px;
+    border-bottom: 1px solid #fff;
+    width: 130px;
+}
+#germanDiv{
+    background-color: #6aacee;
+    border: 2px solid #fff;
+    margin-top: 20px;
+}
+#spanishDiv{
+    background-color: #ee9a6a;
+    border: 2px solid #fff;
+    margin-top: 20px;
+}
+@font-face {
+    font-family:hindi ;
+    src: url(./fonts/Martel-ExtraBold.ttf);
+}
+#hindiLang{
+    font-family: hindi;
+}
+#hindiDiv{
+    border: 2px solid #6aacee;
+    margin-top: 20px;
+}
